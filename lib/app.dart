@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:portfolio_website/provider.dart';
 import 'package:portfolio_website/components/home.dart';
 import 'package:portfolio_website/components/navbar.dart';
+import 'package:portfolio_website/components/about_me.dart';
 
 class PortfolioApp extends StatefulWidget {
   const PortfolioApp({super.key});
@@ -19,6 +20,9 @@ class _PortfolioAppState extends State<PortfolioApp> {
     switch (appState.selectedItem) {
       case "Home":
         page = HomePage();
+        break;
+      case "About":
+        page = AboutMePage();
         break;
       default:
         page = Placeholder();

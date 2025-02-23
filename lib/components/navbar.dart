@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:portfolio_website/provider.dart';
+import 'package:portfolio_website/components/about_me.dart';
 
 class NavBar extends StatefulWidget {
   const NavBar({super.key});
